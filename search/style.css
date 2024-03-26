@@ -1,0 +1,49 @@
+
+.linkdiv {
+    text-align: right;
+    padding: 20px;
+}
+
+
+.searchform {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+form {
+    
+    display: grid;
+    text-align: center;
+}
+
+
+#textinput, .textinputl {
+    width: 300px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 4px;
+}
+
+.buttonsearch {
+    width: auto;
+    margin: auto;
+    border-radius: 5px; 
+    padding: 2px;
+}
+
+.advsearch {
+    text-align: left;
+}
+
+.advsearch>h3 {
+    padding-left: 15px;
+}
+
+.advbut>#butadv{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+}

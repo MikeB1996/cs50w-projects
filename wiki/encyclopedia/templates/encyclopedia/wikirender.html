@@ -15,3 +15,21 @@
     </div>
 {% endblock %}
 
+
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ wikiname }}
+{% endblock %}
+
+{% block body %}   
+    {% if entryexist %}
+            <p>{{ wikicontent|safe }}</p>
+    {% else %}
+        <h1>No such entry exists</h1>
+    {% endif %}
+    <div>
+        <a href="/wiki/{{wikiname}}/edit">Edit Page</a>
+    </div>
+{% endblock %}
+
